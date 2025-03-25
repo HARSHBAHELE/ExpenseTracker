@@ -1,38 +1,154 @@
-.App {
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Full viewport height */
+}
+
+/* Card-Like UI */
+.main1 {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+  max-width: 500px;
+  width: 90%;
+  transition: 0.3s ease-in-out;
+}
+.heading {
+  font-size: 25px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bal {
+  font-size: 17px;
+  padding-top: 12px;
+ 
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main2 {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 20px;
+  height: 50px;
+  width: 430px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+.Add {
+  width: 120px;
+  border: none;
+  background-color: #4D55CC;
+  font-size: 18px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.main90 {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.expense {
+  height: 80px;
+  border: 1px solid rgb(235, 234, 234);
+  width: 200px;
+  margin-top: 20px;
+}
+.income {
+  height: 80px;
+  border: 1px solid rgb(235, 234, 234);
+  width: 200px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.inp22 {
+  margin-left: 110px;
+}
+.radio12 {
+  margin-left: 5px;
+}
+.p1 {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+  color: grey;
+}
+.expenseh3 {
+  margin-left: 20px;
+  margin-top: 5px;
+  font-weight: bold;
+  color: red;
+}
+.incomeh3 {
+  margin-left: 20px;
+  margin-top: 5px;
+  font-weight: bold;
+  color: green;
+}
+.input1 {
+  width: 270px;
+  height: 40px;
+  padding-left: 20px;
+  margin-top: 10px;
+  outline: none;
+}
+.main4 {
+  display: flex;
+  justify-content: center;
+}
+.main5 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.input3 {
+  margin-left: 100px;
+}
+.radio1 {
+  padding-left: 10px;
+}
+.main6 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.AddTransition {
+  height: 40px; 
+  width: 180px;
+  background-color: #4D55CC; ;
+  border: none;
+  color: white;
+}
+ul li {
+  display: flex;
+  margin-top: 20px;
+  height: 50px;
+  width: 430px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+.lip {
+  margin-left: 20px;
+  font-weight: bold;
+  color: grey;
+  border: none;
+}
+.libal {
+  margin-left: 250px;
+ padding-top: 18px;
+  font-weight: bold;
+  border: none;
+}
+.transaction-item {
+  list-style: none;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.transaction-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
