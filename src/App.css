@@ -152,3 +152,43 @@ ul li {
   align-items: center;
   width: 100%;
 }
+@media (max-width: 600px) {
+  .main1 {
+    padding: 20px;
+    max-width: 90%;
+    width: 100%;
+  }
+
+  .main2,
+  ul li {
+    width: 100%;
+  }
+
+  .income,
+  .expense {
+    width: 45%; /* Reduce width for better fit */
+    margin-left: 10px;
+  }
+
+  .main3 {
+    flex-direction: row; /* Stack income & expense on top of each other */
+    align-items: center;
+  }
+
+  .inp22 {
+    margin-left: 20px; /* Adjust radio button spacing */
+  }
+
+  .libal {
+    margin-left: 150px; /* Reduce gap for transaction amount */
+  }
+
+  .input1 {
+    width: 100%; /* Full width for input fields */
+    border: 1px solid grey;
+  }
+
+  .AddTransition {
+    width: 100%; /* Full width for button */
+  }
+}
